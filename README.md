@@ -1,12 +1,38 @@
-# React + Vite
+✈️ Flight Booking System (Frontend Only)
+A responsive, single-page flight booking system built with React. Users can view available flights, book a flight by filling out a form, and see all booked tickets on a separate page—delivering an intuitive and elegant booking experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Features
+✅ Built with React Functional Components and React Hooks (useState, useEffect)
 
-Currently, two official plugins are available:
+✅ Dynamic flight list rendered using .map() on the home page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ "Book" button opens a form for the selected flight
 
-## Expanding the ESLint configuration
+✅ Booking form captures passenger details and confirms booking
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Tickets section displays all booked flights in a clean layout
+
+✅ React Router for navigation between Home, Book, and Tickets
+
+✅ Fully responsive UI with beautiful, modern CSS styling
+
+✅ Smooth client interaction to ensure a top-tier experience
+
+🖼️ Screenshots
+🏠 Home Page (Available Flights)
+<img src="src/screenshots/mid1.PNG" width="100%" alt="Home Page - Flights List" />
+📝 Booking Form
+<img src="src/screenshots/mid2.PNG" width="100%" alt="Booking Form" />
+🎫 Tickets Page
+<img src="src/screenshots/tmid3.PNG" width="100%" alt="Booked Tickets View" />
+💡 Make sure to add your actual screenshots in a src/screenshots/ folder.
+
+📦 Tech Stack
+Frontend: React (using Vite or CRA)
+
+Routing: React Router
+
+State Management: React Hooks (useState, useEffect)
+
+Styling: CSS (custom-designed for a polished UI)
+
